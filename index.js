@@ -44,3 +44,5 @@ obj.sequelize
 app.listen(port || 8080, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
+module.exports = app;
